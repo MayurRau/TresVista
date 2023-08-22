@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to the database
-connection = sqlite3.connect('db.sqlite3')
+connection = sqlite3.connect('tresvista_db.sqlite3')
 
 cursor = connection.cursor()
 
